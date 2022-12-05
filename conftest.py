@@ -9,5 +9,5 @@ def set_browser_resolution():
 
 
 @pytest.fixture()
-def open_browser(set_browser_resolution):
+def open_google(set_browser_resolution):
     browser.open('https://google.com')
